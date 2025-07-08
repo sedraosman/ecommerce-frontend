@@ -1,0 +1,1924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href ="css/style.css" rel ="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    
+                    <h2>Welcome</h2>
+                   
+                    <form>
+                        <label>Emil </label>
+                        <input type="text" placeholder="Email" class="form-control form01">
+                       <br>
+                        <label>password</label>
+                        <input type="password" placeholder="Password" class="form-control form01">
+                        
+                        <br><a href="#">Forget Paassword?</a>
+                        <br>
+                        <button type="button" class="btn btn-primary btn07">LOG IN</button>
+                    
+                    
+                    </form>
+                    <br>
+                   <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+    
+                            <hr>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="p0111">  or log in with </p>
+                            
+                        </div>
+                        <div class="col-sm-4">
+    
+                            <hr>
+                        </div>
+                    </div>
+                   </div>
+                   <i style="font-size:24px" class="fa fas">&#xf1a0;</i>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="modal" id="mymodal">
+        <div class="modal-dialog"> 
+            <div class="modal-content">
+    
+           
+        <div class="modal-header">
+           <h4>Sing in :</h4>
+           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+   
+      <div class="modal-body">
+  <form>
+    <label>Email</label>
+    <div class="input-group mb-3">
+     
+      <input type="text" placeholder="Enter email" class="form-control"  required>
+    </div>
+
+    <!-- Password Input -->
+    <label>Password</label>
+
+    <div class="input-group mb-3">
+    
+      <input type="password" placeholder="Enter password" class="form-control" required>
+    </div>
+  </form>
+</div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn07">LOG IN</button>
+             </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="container-fluid div01">
+        <div class="row">
+            <div class="col-sm-3">
+              
+            </div>
+        <div class="col-sm-5">
+            
+                    <span class="material-symbols-outlined">
+                       
+                        <input type="text" class="form-control" placeholder="Search">
+               
+                        </span>
+                     
+        </div>
+        <div class="col-sm-1">
+            <a href="euro.html">
+           
+        </a>
+        </div>
+        <div class="col-sm-1 col01">
+            <ul>
+                <li> <img src="img/image.png"class="img03">En</li>
+               
+       
+        
+        
+         
+        </ul>
+                   <div class="sel">
+                    <input type ="radio"/>
+                    <label>English </label>
+                    <br>
+                    <br>
+                    
+                    <input type ="radio"/>
+                    <label>Arabic </label>
+                    
+                   </div>
+                    <script>
+                      
+                        $(document).ready(function(){
+        $(".col01").click(function(){
+            $(".sel").slideToggle();
+        })
+                    })
+                    </script>
+          
+           
+        </div>
+        <div class="col-sm-2 col02">
+            <ul>
+
+               
+                <li>
+                    <a href="#">
+                        <span class="material-symbols-outlined"data-bs-toggle="modal" data-bs-target="#modal">
+                            account_circle
+                            </span>
+                    </a>
+                </li>
+                <li>
+                    <p data-bs-toggle="modal" data-bs-target="#mymodal">sing in</p>
+                </li>
+                <li>
+
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                            </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        </div>
+    </div>
+
+    <!--slider-->
+    <div class="container div04">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="carousel slide" id="DG" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-slide-to="0" data-bs-target="#DG" class="active">
+
+                        </button>
+                        <button type="button" data-bs-slide-to="1" data-bs-target="#DG">
+                            
+                        </button>
+                        <button type="button"data-bs-slide-to="2" data-bs-target="#DG">
+                            
+                        </button>
+                        <button type="button" data-bs-slide-to="3" data-bs-target="#DG">
+                            
+                        </button>
+                        <button type="button" data-bs-slide-to="4" data-bs-target="#DG">
+                            
+                        </button>
+                        
+                    </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/slid1.webp" class="img04">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slid2.webp" class="img04">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slid3.webp" class="img04">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slid4.webp" class="img04">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slid5.webp" class="img04">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-next" data-bs-target="#DG" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-prev" data-bs-target="#DG" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon">
+
+                    </span>
+                </button>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col03">
+                <button type="button" class="button01">
+                    <ul>
+                          <li>
+                            <a class="a01" href="#">
+                                <span class="material-symbols-outlined">
+                                    24fps_select
+                                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <p>Express Delivery</p>
+                        </li>
+                    </ul>
+                     </button>
+            </div>
+            <div class="col-md-3 col03">
+                <button type="button" class="button01">
+                    <ul>
+                        <li>
+                          <a class="a01" href="#">
+                            <span class="material-symbols-outlined">
+                                percent
+                                </span>
+                          </a>
+                      </li>
+                      <li>
+                          <p>Express Delivery</p>
+                      </li>
+                  </ul>
+                </button>
+            </div>
+            <div class="col-md-3 col03">
+                <button type="button" class="button01">
+                    <ul>
+                        <li>
+                          <a class="a01" href="#">
+                            <span class="material-symbols-outlined">
+                                orders
+                                </span>
+                          </a>
+                      </li>
+                      <li>
+                          <p>Express Delivery</p>
+                      </li>
+                  </ul>
+                </button>
+            </div>
+            <div class="col-md-3 col03">
+                <button type="button" class="button01">
+                    <ul>
+
+               
+                        <li>
+                            <a class="a01" href="#">
+                                <span class="material-symbols-outlined">
+                                    location_on
+                                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <p>sing in</p>
+                        </li>
+                    </ul>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+<!--photo-->
+<div class="container">
+    <div class="row">
+        <div class="col col04"><img src="img/p01.webp" class="img05"><p class="p01">Buy iPhone</p></div>
+        <div class="col col04"><img src="img/p02.webp"  class="img05"><p class="p01">Mobiles</p></div>
+        <div class="col col04"><img src="img/p03.webp"  class="img05"><p class="p01">Laptops</p></div>
+        <div class="col col04"> <img src="img/p04.webp"  class="img05"><p class="p01">Smartwatches</p></div>
+        <div class="col col04"> <img src="img/p05.webp"  class="img05"><p class="p01">Tablets</p></div>
+        <div class="col col04"> <img src="img/p06.webp"  class="img05"><p class="p01">Gaming</p></div>
+        <div class="col col04"> <img src="img/p07.webp"  class="img05"><p class="p01">Televisions</p></div>
+        <div class="col col04"> <img src="img/p08.webp"  class="img05"><p class="p01">Audio<br>Devices</p></div>
+        <div class="col col04"> <img src="img/p09.webp"  class="img05"><p class="p01">Home<br>&Kitchen</p></div>
+        <div class="col col04"> <img src="img/p010.webp"  class="img05"><p class="p01">Cameras</p></div>
+        <div class="col col04"> <img src="img/p011.webp"  class="img05"><p class="p01">personal<br>Care</p></div>
+    </div>
+</div>
+<!-- photo-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col05">
+            <a href="#">
+            <img src="img/c01.jpg" class="img06"></a>
+        </div>
+        <div class="col-sm-3 col05">
+            <a href="#">
+            <img src="img/c02.jpg"  class="img06"></a>
+        </div>
+        <div class="col-sm-3 col05">
+            <a href="#">
+            <img src="img/c03.jpg"  class="img06"></a>
+        </div>
+        <div class="col-sm-3 col05">
+            <a href="#">
+            <img src="img/c04.webp"  class="img06"></a>
+        </div>
+    </div>
+</div>
+<div class="container div02">
+    <div class="row">
+        <div class="col-sm-12 ">
+            <h5> Exclusives.</h5>
+        </div>
+    </div>
+</div>
+
+<!--- card slider-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="carousel slide" id="DG01" >
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-slide-to="0" data-bs-target="#DG01" class="active">
+
+                    </button>
+                    <button type="button" data-bs-slide-to="1" data-bs-target="#DG01">
+                        
+                    </button>
+                    
+                   
+                </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                   <ul>
+                    <li>
+                        <div class="card card01">
+                            <div class="card-body">
+                                <img src="img/slidc1.jpeg"  class="img07">
+                                <p class="p02">54 % off</p>
+                                     <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                    <br>
+                                    
+                                    <p class="p03"> AED 3,170.00</p>
+                                    <p>AED 1,300.00</p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                        <li>
+                            <div class="card card01">
+                                <div class="card-body">
+                                    <img src="img/slidc2.jpeg" class="img07">
+                                    <p class="p02">34 % off</p>
+                                    <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                   <span class="fa fa-star"></span>
+                                   <span class="fa fa-star"></span>
+                                   <span class="fa fa-star"></span>
+                                   <span class="fa fa-star"> 2.3</span>
+                                   <p class="p03"> AED 2,170.00</p>
+                                   <p>AED 1,170.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card card01">
+                                <div class="card-body">
+                                    <img src="img/slidc3.png"  class="img07">
+                                    
+                                    <p class="p02">40 % off</p>
+                                     <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"> 3.3</span>
+                                    <p class="p03"> AED 2,170.00</p>
+                                    <p>AED 1,170.00</p>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                    <li> 
+                        <div class="card card01">
+                            <div class="card-body">
+                                <img src="img/slidc5.jpeg"  class="img07">
+                                <p class="p02">44 % off</p>
+                                     <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                <br>
+                                    <p class="p03"> AED 2,100.00</p>
+                                    <p>AED 1,000.00</p>
+                            </div>
+                        </div>
+                    </li>
+                   </ul>
+                </div>
+                <div class="carousel-item">
+                    <ul>
+                        <li >
+                            <div class="card card01">
+                                <div class="card-body">
+                                    <img src="img/slidc4.png"  class="img07">
+                                    <p class="p02">54 % off</p>
+                                         <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                        <br>
+                                        
+                                        <p class="p03"> AED 3,170.00</p>
+                                        <p>AED 1,300.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                            <li>
+                                <div class="card card01">
+                                    <div class="card-body">
+                                        <img src="img/slidc6.jpeg" class="img07">
+                                        <p class="p02">34 % off</p>
+                                        <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"> 2.3</span>
+                                       <p class="p03"> AED 2,170.00</p>
+                                       <p>AED 1,170.00</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <ul>
+                                <li ><a href="Products.html">
+                                    <div class="card card01">
+                                        <div class="card-body">
+                                            <img src="img/slidc7.jpeg"  class="img07">
+                                            <p class="p02">54 % off</p>
+                                                 <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                                <br>
+                                                
+                                                <p class="p03"> AED 3,170.00</p>
+                                                <p>AED 1,300.00</p>
+                                        </div>
+                                    </div></a>
+                                </li>
+                                
+                                    <li>
+                                        <div class="card card01">
+                                            <div class="card-body">
+                                                <img src="img/slidc8.jpeg" class="img07">
+                                                <p class="p02">34 % off</p>
+                                                <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"> 2.3</span>
+                                               <p class="p03"> AED 2,170.00</p>
+                                               <p>AED 1,170.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                            </ul>
+                   
+                </div>
+               
+            </div>
+            <button type="button" class="carousel-control-next" data-bs-target="#DG01" data-bs-slide="next">
+                <span class="carousel-control-next-icon span01"></span>
+            </button>
+            <button type="button" class="carousel-control-prev" data-bs-target="#DG01" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon span01">
+
+                </span>
+            </button>
+
+            </div>
+        </div></div></div>
+        <div class="container div02">
+            <div class="row">
+                <div class="col-sm-12 ">
+                    <h5>Deals of the Day
+                    </h5>
+                </div>
+            </div>
+        </div>
+<!--slide card2-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="carousel slide" id="DG02" >
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-slide-to="0" data-bs-target="#DG02" class="active">
+        
+                            </button>
+                            <button type="button" data-bs-slide-to="1" data-bs-target="#DG02">
+                                
+                            </button>
+                            
+                           
+                        </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <ul>
+                            <li>
+                                <div class="card card01">
+                                    <div class="card-body">
+                                        <img src="img/slidc1.jpeg"  class="img07">
+                                        <p class="p02">54 % off</p>
+                                             <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                            <br>
+                                            
+                                            <p class="p03"> AED 3,170.00</p>
+                                            <p>AED 1,300.00</p>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                                <li>
+                                    <div class="card card01">
+                                        <div class="card-body">
+                                            <img src="img/slidc2.jpeg" class="img07">
+                                            <p class="p02">34 % off</p>
+                                            <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                           <span class="fa fa-star"></span>
+                                           <span class="fa fa-star"></span>
+                                           <span class="fa fa-star"></span>
+                                           <span class="fa fa-star"> 2.3</span>
+                                           <p class="p03"> AED 2,170.00</p>
+                                           <p>AED 1,170.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card card01">
+                                        <div class="card-body">
+                                            <img src="img/slidc3.png"  class="img07">
+                                            
+                                            <p class="p02">40 % off</p>
+                                             <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"> 3.3</span>
+                                            <p class="p03"> AED 2,170.00</p>
+                                            <p>AED 1,170.00</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            <li> 
+                                <div class="card card01">
+                                    <div class="card-body">
+                                        <img src="img/slidc5.jpeg"  class="img07">
+                                        <p class="p02">44 % off</p>
+                                             <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                        <br>
+                                            <p class="p03"> AED 2,100.00</p>
+                                            <p>AED 1,000.00</p>
+                                    </div>
+                                </div>
+                            </li>
+                           </ul>
+                        </div>
+                        <div class="carousel-item">
+                            <ul>
+                                <li >
+                                    <div class="card card01">
+                                        <div class="card-body">
+                                            <img src="img/slidc4.png"  class="img07">
+                                            <p class="p02">54 % off</p>
+                                                 <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                                <br>
+                                                
+                                                <p class="p03"> AED 3,170.00</p>
+                                                <p>AED 1,300.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                    <li>
+                                        <div class="card card01">
+                                            <div class="card-body">
+                                                <img src="img/slidc6.jpeg" class="img07">
+                                                <p class="p02">34 % off</p>
+                                                <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"> 2.3</span>
+                                               <p class="p03"> AED 2,170.00</p>
+                                               <p>AED 1,170.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <ul>
+                                        <li >
+                                            <div class="card card01">
+                                                <div class="card-body">
+                                                    <img src="img/slidc7.jpeg"  class="img07">
+                                                    <p class="p02">54 % off</p>
+                                                         <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                                        <br>
+                                                        
+                                                        <p class="p03"> AED 3,170.00</p>
+                                                        <p>AED 1,300.00</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                            <li>
+                                                <div class="card card01">
+                                                    <div class="card-body">
+                                                        <img src="img/slidc8.jpeg" class="img07">
+                                                        <p class="p02">34 % off</p>
+                                                        <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                                       <span class="fa fa-star"></span>
+                                                       <span class="fa fa-star"></span>
+                                                       <span class="fa fa-star"></span>
+                                                       <span class="fa fa-star"> 2.3</span>
+                                                       <p class="p03"> AED 2,170.00</p>
+                                                       <p>AED 1,170.00</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                    </ul>
+                           
+                        </div>
+                       
+                    </div>
+                    <button type="button" class="carousel-control-next" data-bs-target="#DG02" data-bs-slide="next">
+                        <span class="carousel-control-next-icon span01"></span>
+                    </button>
+                    <button type="button" class="carousel-control-prev" data-bs-target="#DG02" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon span01">
+        
+                        </span>
+                    </button>
+        
+                    </div>
+                </div></div></div>
+
+<!---photo2-->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col05">
+                            <a href="#">
+                            <img src="img/c01.jpg" class="img06"></a>
+                        </div>
+                        <div class="col-sm-3 col05">
+                            <a href="#">
+                            <img src="img/c02.jpg"  class="img06"></a>
+                        </div>
+                        <div class="col-sm-3 col05">
+                            <a href="#">
+                            <img src="img/c03.jpg"  class="img06"></a>
+                        </div>
+                        <div class="col-sm-3 col05">
+                            <a href="#">
+                            <img src="img/c04.webp"  class="img06"></a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="container div02">
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <h5>High on demand
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+<!--slide3-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="carousel slide" id="DG04">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-slide-to="0" data-bs-target="#DG04" class="active">
+
+                    </button>
+                    <button type="button" data-bs-slide-to="1" data-bs-target="#DG04">
+                        
+                    </button>
+                    
+                   
+                </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                   <ul>
+                    <li>
+                        <div class="card card01">
+                            <div class="card-body">
+                                <img src="img/slidc1.jpeg"  class="img07">
+                                <p class="p02">54 % off</p>
+                                     <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                    <br>
+                                    
+                                    <p class="p03"> AED 3,170.00</p>
+                                    <p>AED 1,300.00</p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                        <li>
+                            <div class="card card01">
+                                <div class="card-body">
+                                    <img src="img/slidc2.jpeg" class="img07">
+                                    <p class="p02">34 % off</p>
+                                    <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                   <span class="fa fa-star"></span>
+                                   <span class="fa fa-star"></span>
+                                   <span class="fa fa-star"></span>
+                                   <span class="fa fa-star"> 2.3</span>
+                                   <p class="p03"> AED 2,170.00</p>
+                                   <p>AED 1,170.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card card01">
+                                <div class="card-body">
+                                    <img src="img/slidc3.png"  class="img07">
+                                    
+                                    <p class="p02">40 % off</p>
+                                     <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"> 3.3</span>
+                                    <p class="p03"> AED 2,170.00</p>
+                                    <p>AED 1,170.00</p>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                    <li> 
+                        <div class="card card01">
+                            <div class="card-body">
+                                <img src="img/slidc5.jpeg"  class="img07">
+                                <p class="p02">44 % off</p>
+                                     <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                <br>
+                                    <p class="p03"> AED 2,100.00</p>
+                                    <p>AED 1,000.00</p>
+                            </div>
+                        </div>
+                    </li>
+                   </ul>
+                </div>
+                <div class="carousel-item">
+                    <ul>
+                        <li >
+                            <div class="card card01">
+                                <div class="card-body">
+                                    <img src="img/slidc4.png"  class="img07">
+                                    <p class="p02">54 % off</p>
+                                         <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                        <br>
+                                        
+                                        <p class="p03"> AED 3,170.00</p>
+                                        <p>AED 1,300.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                            <li>
+                                <div class="card card01">
+                                    <div class="card-body">
+                                        <img src="img/slidc6.jpeg" class="img07">
+                                        <p class="p02">34 % off</p>
+                                        <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"> 2.3</span>
+                                       <p class="p03"> AED 2,170.00</p>
+                                       <p>AED 1,170.00</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <ul>
+                                <li >
+                                    <div class="card card01">
+                                        <div class="card-body">
+                                            <img src="img/slidc7.jpeg"  class="img07">
+                                            <p class="p02">54 % off</p>
+                                                 <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                                <br>
+                                                
+                                                <p class="p03"> AED 3,170.00</p>
+                                                <p>AED 1,300.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                    <li>
+                                        <div class="card card01">
+                                            <div class="card-body">
+                                                <img src="img/slidc8.jpeg" class="img07">
+                                                <p class="p02">34 % off</p>
+                                                <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"> 2.3</span>
+                                               <p class="p03"> AED 2,170.00</p>
+                                               <p>AED 1,170.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                            </ul>
+                   
+                </div>
+               
+            </div>
+            <button type="button" class="carousel-control-next" data-bs-target="#DG04" data-bs-slide="next">
+                <span class="carousel-control-next-icon span01"></span>
+            </button>
+            <button type="button" class="carousel-control-prev" data-bs-target="#DG04" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon span01">
+
+                </span>
+            </button>
+
+            </div>
+        </div></div></div>
+
+
+                <!--tow photo-->
+                <div class="container div02">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/ph01.webp" class="img08">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/ph02.webp" class="img08"> 
+                        </div>
+                    </div>
+                </div>
+
+ <!--photo-->
+ <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Game Store</h2>
+            <img src="img/p1.png" class="img09">
+        </div>
+    </div>
+ </div>
+
+
+
+ <div class="container">
+    <div class="row">
+        <h2>Mobile Phone deals</h2>
+        <div class="col">
+
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p02.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> Android<br> Smartphone</b>
+                            <p>up to 20% off</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p01.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> Besstselling<br>iPhone</b>
+                            <p>up to 20% off</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p05.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> Budget<br> Smartphone</b>
+                            <p>up to 15% off</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p02.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> New Launch<br> Smartphone</b>
+                            
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--slide-->
+ <div class="container div02">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="carousel slide" id="DG03">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-slide-to="0" data-bs-target="#DG03" class="active">
+
+                    </button>
+                    <button type="button" data-bs-slide-to="1" data-bs-target="#DG03">
+                        
+                    </button>
+                    
+                   
+                </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                   <ul>
+                    <li>
+                        <div class="card card01">
+                            <div class="card-body">
+                                <img src="img/slidc1.jpeg"  class="img07">
+                                <p class="p02">54 % off</p>
+                                     <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                    <br>
+                                    
+                                    <p class="p03"> AED 3,170.00</p>
+                                    <p>AED 1,300.00</p>
+                            </div>
+                            <button type="button" class ="btn btn-primary">Add to Card</button>
+                                       
+                        </div>
+                    </li>
+                    
+                        <li>
+                            <div class="card card01">
+                                <div class="card-body">
+                                    <img src="img/slidc2.jpeg" class="img07">
+                                    <p class="p02">34 % off</p>
+                                    <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                   <span class="fa fa-star"></span>
+                                   <span class="fa fa-star"></span>
+                                   <span class="fa fa-star"></span>
+                                   <span class="fa fa-star"> 2.3</span>
+                                   <p class="p03"> AED 2,170.00</p>
+                                   <p>AED 1,170.00</p>
+                                </div>  <button type="button" class ="btn btn-primary">Add to Card</button>
+                          
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card card01">
+                                <div class="card-body">
+                                    <img src="img/slidc3.png"  class="img07">
+                                    
+                                    <p class="p02">40 % off</p>
+                                     <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"> 3.3</span>
+                                    <p class="p03"> AED 2,170.00</p>
+                                    <p>AED 1,170.00</p>
+                                    
+                                </div>  <button type="button" class ="btn btn-primary">Add to Card</button>
+                          
+                            </div>
+                        </li>
+                    <li> 
+                        <div class="card card01">
+                            <div class="card-body">
+                                <img src="img/slidc5.jpeg"  class="img07">
+                                <p class="p02">44 % off</p>
+                                     <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                <br>
+                                    <p class="p03"> AED 2,100.00</p>
+                                    <p>AED 1,000.00</p>
+                            </div>  <button type="button" class ="btn btn-primary">Add to Card</button>
+                          
+                        </div>
+                    </li>
+                   </ul>
+                </div>
+                <div class="carousel-item">
+                    <ul>
+                        <li >
+                            <div class="card card01">
+                                <div class="card-body">
+                                    <img src="img/slidc4.png"  class="img07">
+                                    <p class="p02">54 % off</p>
+                                         <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                        <br>
+                                        
+                                        <p class="p03"> AED 3,170.00</p>
+                                        <p>AED 1,300.00</p>
+                                </div>  <button type="button" class ="btn btn-primary">Add to Card</button>
+                          
+                            </div>
+                        </li>
+                        
+                            <li>
+                                <div class="card card01">
+                                    <div class="card-body">
+                                        <img src="img/slidc6.jpeg" class="img07">
+                                        <p class="p02">34 % off</p>
+                                        <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"> 2.3</span>
+                                       <p class="p03"> AED 2,170.00</p>
+                                       <p>AED 1,170.00</p>
+                                    </div>  <button type="button" class ="btn btn-primary">Add to Card</button>
+                          
+                                </div>
+                            </li>
+                            <ul>
+                                <li >
+                                    <div class="card card01">
+                                        <div class="card-body">
+                                            <img src="img/slidc7.jpeg"  class="img07">
+                                            <p class="p02">54 % off</p>
+                                                 <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                                <br>
+                                                
+                                                <p class="p03"> AED 3,170.00</p>
+                                                <p>AED 1,300.00</p>
+                                        </div>  <button type="button" class ="btn btn-primary">Add to Card</button>
+                          
+                                    </div>
+                                </li>
+                                
+                                    <li>
+                                        <div class="card card01">
+                                            <div class="card-body">
+                                                <img src="img/slidc8.jpeg" class="img07">
+                                                <p class="p02">34 % off</p>
+                                                <p>Eufy Robovac L35 Hybrid+ Robotic<br> Vacuum Cleaner Black T2182K11</p>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"></span>
+                                               <span class="fa fa-star"> 2.3</span>
+                                               <p class="p03"> AED 2,170.00</p>
+                                               <p>AED 1,170.00</p>
+                                            
+                                            </div>  <button type="button" class ="btn btn-primary">Add to Card</button>
+                          
+                                            </div>
+                                    </li>
+                            </ul>
+                   
+                </div>
+               
+            </div>
+            <button type="button" class="carousel-control-next" data-bs-target="#DG03" data-bs-slide="next">
+                <span class="carousel-control-next-icon span01"></span>
+            </button>
+            <button type="button" class="carousel-control-prev" data-bs-target="#DG03" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon span01">
+
+                </span>
+            </button>
+
+            </div>
+        </div></div></div>
+
+<!--phpto-->
+       
+        
+        
+        
+         <div class="container div02">
+            <div class="row">
+                <h2>Top-rated Smartwatches</h2>
+                <div class="col">
+        
+                    <div class="card">
+                        <div class ="card-body card02">
+                            <ul>
+                                <li>
+                                    <img src="img/p02.webp" class="img001">
+                                </li>
+                                <li>
+                                    <b> Android<br> Smartphone</b>
+                                    <p>up to 20% off</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+        
+                    <div class="card">
+                        <div class ="card-body card02">
+                            <ul>
+                                <li>
+                                    <img src="img/p01.webp" class="img001">
+                                </li>
+                                <li>
+                                    <b> Besstselling<br>iPhone</b>
+                                    <p>up to 20% off</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+        
+                    <div class="card">
+                        <div class ="card-body card02">
+                            <ul>
+                                <li>
+                                    <img src="img/p05.webp" class="img001">
+                                </li>
+                                <li>
+                                    <b> Budget<br> Smartphone</b>
+                                    <p>up to 15% off</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+        
+                    <div class="card">
+                        <div class ="card-body card02">
+                            <ul>
+                                <li>
+                                    <img src="img/p02.webp" class="img001">
+                                </li>
+                                <li>
+                                    <b> New Launch<br> Smartphone</b>
+                                    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+         <div class="container div02">
+            <h2>Best deals on computing</h2>
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="card card03">
+                        <div class="card-body">
+                            <p class="p01"> <b>Mac Book</b><br>up to 20% off</p>
+                            
+                            <img src="img/p03.webp" class="img002">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="card card03">
+                        <div class="card-body">
+                            <p class="p01"><b>Laptops</b><br>up to 20% off</p>
+                           
+                            <img src="img/slidc3.png" class="img002">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-2">
+                    <div class="card card03">
+                        <div class="card-body">
+                            <p><b>Printers & Ink</b><br>up to 20% off</p>
+                           
+                            <img src="img/card2.png" class="img002">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-2">
+                    <div class="card card03">
+                        <div class="card-body">
+                            <p><b>Monitors</b><br>up to 20% off</p>
+                            <p></p>
+                            <img src="img/p07.webp" class="img002">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-2">
+                    <div class="card card03">
+                        <div class="card-body">
+                            <p><b>Networking</b><br>up to 20% off</p>
+                           
+                            <img src="img/card3.png" class="img002">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-2">
+                    <div class="card card03">
+                        <div class="card-body">
+                            <p><b>Accessories</b><br>up to 20% off</p>
+                          
+                            <img src="img/card5.png" class="img002">
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+            </div>
+         </div>
+
+
+
+
+<!----card-->
+<div class="container div02">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-bodey">
+                    <h2>Best</h2>
+                    <p></p>
+                    <img src="img/img01.png" class="img003">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p02.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> New Launch<br> Smartphone</b>
+                            
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p02.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> New Launch<br> Smartphone</b>
+                            
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p02.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> New Launch<br> Smartphone</b>
+                            
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p02.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> New Launch<br> Smartphone</b>
+                            
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="container div02">
+    <div class="row">
+        <h2>Mobile Phone deals</h2>
+        <div class="col">
+
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p02.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> Android<br> Smartphone</b>
+                            <p>up to 20% off</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p01.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> Besstselling<br>iPhone</b>
+                            <p>up to 20% off</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p05.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> Budget<br> Smartphone</b>
+                            <p>up to 15% off</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+
+            <div class="card">
+                <div class ="card-body card02">
+                    <ul>
+                        <li>
+                            <img src="img/p02.webp" class="img001">
+                        </li>
+                        <li>
+                            <b> New Launch<br> Smartphone</b>
+                            
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+
+ <div class="container div02">
+    <h2>Best deals on computing</h2>
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p class="p01"> <b>Mac Book</b><br>up to 20% off</p>
+                    
+                    <img src="img/p03.webp" class="img002">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p class="p01"><b>Laptops</b><br>up to 20% off</p>
+                   
+                    <img src="img/slidc3.png" class="img002">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p><b>Printers & Ink</b><br>up to 20% off</p>
+                   
+                    <img src="img/card2.png" class="img002">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p><b>Monitors</b><br>up to 20% off</p>
+                    <p></p>
+                    <img src="img/p07.webp" class="img002">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p><b>Networking</b><br>up to 20% off</p>
+                   
+                    <img src="img/card3.png" class="img002">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p><b>Accessories</b><br>up to 20% off</p>
+                  
+                    <img src="img/card5.png" class="img002">
+                </div>
+            </div>
+        </div>
+        
+
+
+
+    </div>
+ </div>
+
+
+ <div class="container div02">
+    <h2>Best deals on computing</h2>
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p class="p01"> <b>Mac Book</b><br>up to 20% off</p>
+                    
+                    <img src="img/p03.webp" class="img002">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p class="p01"><b>Laptops</b><br>up to 20% off</p>
+                   
+                    <img src="img/slidc3.png" class="img002">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p><b>Printers & Ink</b><br>up to 20% off</p>
+                   
+                    <img src="img/card2.png" class="img002">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p><b>Monitors</b><br>up to 20% off</p>
+                    <p></p>
+                    <img src="img/p07.webp" class="img002">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p><b>Networking</b><br>up to 20% off</p>
+                   
+                    <img src="img/card3.png" class="img002">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-2">
+            <div class="card card03">
+                <div class="card-body">
+                    <p><b>Accessories</b><br>up to 20% off</p>
+                  
+                    <img src="img/card5.png" class="img002">
+                </div>
+            </div>
+        </div>
+        
+
+
+
+    </div>
+ </div>
+ <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+           <a href="#">  <img src="img/img002.png"></a>
+            <br>
+            <br>
+            <a href="#">    <img src="img/img003.png" class="img004"></a>
+        </div>
+    </div>
+ </div>
+
+ <!--footer-->
+
+ <div class="container div02">
+    <div class="row">
+        <div class="col-sm-12">
+            <ul>
+                <li class="item01"> <p><b>Essentials</b></p>
+                    <p>Essentials	<BR>
+                        Mobiles<BR>	   
+                        Laptop<BR>	 
+                        Tablets	<BR>
+                        Smartwatches<BR>
+                    	 Health & Fitness<br>
+                    	 IT Equipment	<br>		  
+                         Gift cards					
+                        </p>
+                </li>
+                <li class="item01"> <p><b>Essentials</b></p>
+                    <p>Essentials	<BR>
+                        Mobiles<BR>	   
+                        Laptop<BR>	 
+                        Tablets	<BR>
+                        Smartwatches<BR>
+                    	 Health & Fitness<br>
+                    	 IT Equipment	<br>		  
+                         Gift cards					
+                        </p>
+                
+                </li>
+                <li class="item01"> <p><b>Essentials</b></p>
+                    <p>Essentials	<BR>
+                        Mobiles<BR>	   
+                        Laptop<BR>	 
+                        Tablets	<BR>
+                        Smartwatches<BR>
+                    	 Health & Fitness<br>
+                    	 IT Equipment	<br>		  
+                         Gift cards					
+                        </p>
+                
+                </li>
+                <li class="item01"> <p><b>Essentials</b></p>
+                    <p>Essentials	<BR>
+                        Mobiles<BR>	   
+                        Laptop<BR>	 
+                        Tablets	<BR>
+                        Smartwatches<BR>
+                    	 Health & Fitness<br>
+                    	 IT Equipment	<br>		  
+                         Gift cards					
+                        </p>
+                
+                </li>
+                <li class="item01"> <p><b>Essentials</b></p>
+                    <p>Essentials	<BR>
+                        Mobiles<BR>	   
+                        Laptop<BR>	 
+                        Tablets	<BR>
+                        Smartwatches<BR>
+                    	 Health & Fitness<br>
+                    	 IT Equipment	<br>		  
+                         Gift cards					
+                        </p>
+                
+                </li>
+                <li class="item01"> <p><b>Essentials</b></p>
+                    <p>Essentials	<BR>
+                        Mobiles<BR>	   
+                        Laptop<BR>	 
+                        Tablets	<BR>
+                        Smartwatches<BR>
+                    	 Health & Fitness<br>
+                    	 IT Equipment	<br>		  
+                         Gift cards					
+                        </p>
+                
+                </li>
+               
+       
+        
+        
+         
+            </ul></div></div></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Online Shopping Dubai, UAE - Mobile, Electronics, Home & Kitchen Appliances</h3>
+<p>Your search for the best online shop in UAE ends here! Sharaf DG has everything you need under a single roof.
+
+    Here, you can find a wide range of products at the best price! Also, get free shipping and cash-on-delivery options when you shop with us.</p>
+           
+    <p class="p012">Whether you are looking for a gift, the latest smartphones, or even articles related to home decor, you can easily find it all here. 
+
+        At Sharaf DG, we offer a wide range of products from every single category. And that's why we've decided to show you exactly what we have in store. So, let's browse through this website and explore a variety of products and brands from categories such as technology, home decor, fashion and home appliances. 
+        
+        
+        
+        Buy Top Quality and Branded Mobile phones at Best Prices in the UAE
+        Sharaf DG has one of the best collections of mobile phone brands across all the online mobile shopping platforms in the UAE!
+        
+        Here, you will find top-quality and branded mobile phones priced to match your budget.
+        
+        If some of your recent Google searches have been "mobile shopping near me," look no further, as shopping for mobiles online will take care of that for you! Plus, there are many reasons to opt for online mobile shopping. 
+        
+        Firstly, it is very convenient, and you can do it from the comfort of your home. Secondly, you have a wider range of products to choose from. And thirdly, you can avail of great discounts and offers on mobile phones.
+        
+        Not to mention, Sharaf DG stocks only the branded mobile phones, including:
+        
+        Apple iPhones
+        Samsung Galaxy Series
+        Xiaomi Smartphones
+        Huawei Phones and accessories
+        Oppo Phones
+        Vivo Mobiles
+        One plus Smartphones
+        Google Pixel Phones
+        Nokia Mobiles
+        and a lot more!
+        
+        So, you are sure to find your desired phone here. Some of the latest models available on Sharaf DG are the  iPhone 14, iPhone 13 Pro, iPhone 13,Samsung S22, Samsung Z Fold3, Xiaomi 12 Pro, and Huawei P50 Pocket.
+        
+        Browse through our large collection of smartphones for every purpose and get the best deals that will make you go "Wow!"
+        
+        
+        
+        Shop Fashion and Beauty Products Online in UAE at Best Prices
+        Finding the right fashion and beauty products can be a challenge, especially if you're not sure where to look for them.
+        
+        What if there was just one place where you could find the top beauty brands, grooming appliances, trimmers, shavers, fragrances, and perfumes?
+        
+        That's what we aimed to make possible at Sharaf DG.
+        
+        After onboarding the largest brands across the globe, we now have an endless collection of products for you to choose from and test. We now offer the widest range of products from the leading beauty and fashion brands so that you don't have to look elsewhere.
+        
+        Some of the most popular products available from renowned brands are:
+        
+        Marc Jacobs Women's Perfume
+        Lacoste’s Accessories
+        United Colors of Benetton’s Sunglasses
+        Bvlgari Women's Sunglasses
+        Calvin Klein’s Accessories
+        Davidoff's Cologne
+        Dunhill Men's Sunglasses
+        Rasasi Women's Perfume
+        Paco Rabanne Men's Cologne
+        RayBan's Sunglasses
+        Our store also offers a great range of grooming appliances from top brands such as Dyson, Remington, Babyliss, Phillips, and Braun. You can find a variety of trimmers, shavers, lotions, and more. 
+        
+        We also have some of the top fashion labels available at Sharaf DG, including Marc Jacobs, Lacoste, United Colors of Benetton, Bvlgari, Calvin Klein, Davidoff, Dunhill, Rasasi, Paco Rabanne, RayBan, Chopard, Gucci, Dior, Oakley, Prada, and Guess - the list is endless!
+        
+        You can also find a great selection of sunglasses from well-known brands such as RayBan, Chopard, Gucci, Dior, and Oakley. 
+        
+        And the best part, all these products will be delivered right to your doorstep without you having to step outside your home! So, go ahead and give these products a try. Who knows, you may find a few new brands that can become your signature preferences.
+        
+        
+        
+        Shop Online for Furniture, Home, and Living Essentials
+        Upgrading your furniture can be a task. There are so many stores selling products, a range of furniture made from different types of wood, home décor products and brands. It can be perplexing.
+        
+        At Sharaf DG, we deliver a hassle-free shopping experience. And today, it is one of the leading online stores for furniture, home essentials, and a lot more!
+        
+        We stock a wide range of products from top brands such as Evvoli, Yamada, Lamac Crafts, Mahmay, and many others that you may have not tried.
+        
+        There's everything you need to upgrade your home furniture, including:
+        
+        Sofas and beds
+        Dining tables and chairs
+        TV units and cabinets
+        Shoe racks and storage solutions
+        Bedroom sets
+        and much, much more!
+        
+        We also offer a wide range of home furnishing products such as curtains, rugs, cushions, and throws. You can find exceptionally designed wall-decor items too.
+        
+        If you're looking for textile products, we have a great selection of brands such as Pan Emirates, Ibama, and Comfy for you to choose from. 
+        
+        Regardless of whether you visit Sharaf DG online or offline, we know you could be short on time. Hence, we keep things as simple as possible. You can purchase your products and checkout quickly while we take care of everything behind the scenes for you.
+        
+        Our best-in-class service ensures that you get access to everything you need without interrupting your shopping flow.
+        
+        
+        
+        One-Stop Online Shop for world-class Home and Kitchen Appliances
+        Sharaf DG is the best place to buy a world-class home and kitchen appliances. We offer a wide range of products from the world's leading brands, all in one convenient online shop. We offer Refrigerator, Washing Machine, Dishwasher, Air Conditioner & Purifier, Microwave Ovens, Food Processor, Cooker, Blender and many more.
+        
+        We offer all the latest models of home appliances from the top brands, including LG, Super General, Samsung, Bosch, Miele, Panasonic, Hisense, Hoover, Candy, Hitachi, Nikai, Whirlpool, Haier, Afton, Toshiba. And kitchen appliances from brands like Siemens, Bosch, LG, Nikai, Terim, Dyson, Smeg, Midea, Beko, Wolf, Super General, Hoover with our competitive prices, you can be sure you're getting the best value for money!
+        
+        Some of the most popular products from these brands include:
+        
+        LG Refrigerator
+        Samsung Air Conditioner
+        Super General Washing Machines
+        Hisense Appliances
+        Bosch Dishwasher
+        Siemens Cooker
+        Bosch Hobs
+        Hoover Freezer & Cooler
+        Dyson Vacuum Cleaner
+        We also offer a great selection of audio products, from soundbars and wireless headphones to earphones and portable speakers. Whether you're an audiophile or a homemaker who enjoys the latest technology, you can find what you need to upgrade your home with Sharaf DG. 
+        
+        Besides, you can always rest assured that your products are delivered by Sharaf DG in the best packaging possible to avoid any damage.
+        
+        
+        
+        Shop Electronics, TV, and Home Audio Online with Best Services
+        Stay up-to-date with the latest technology and gadgets from all across the globe. Choose from LG and Samsung TVs to Sony and Hisense and everything in between. If you have seen a product, you can be sure that it’s available at Sharaf DG.
+        
+        Electronic products we offer:
+        
+        TVs
+        Tablets
+        Smartwatches
+        Laptops
+        Musical Instruments
+        Wired and Wireless Headphones
+        and more!
+        
+        Sharaf DG has the best electronics range compared to all other online electronics stores, so you know you're getting the best products in the UAE.
+        
+        With brands like Apple for MacBook’s and iPad’s, Samsung, Huawei, One plus, Microsoft, HP, Acer, Dell, Lenovo, Asus, and MSI laptops, we have everything you need - even gaming laptops!
+        
+        As far as home audio equipment is concerned, we've got you covered there too. We have everything from Apple and Sony to Samsung and Google, along with Bose, Marshall, Huawei, Beats, Jabra, Sennheiser, JBL, and One plus. And that's just the tip of the iceberg.
+        
+        We also offer a wide range of home audio products from brands like Sonos, Genelec, Polk Audio, Kef, Harman Kardon, and Philips. If you've been looking for a store to purchase online audio instruments, Sharaf DG has got you covered.
+        
+        After-sales service is very important for us at Sharaf DG. We care about your comfort and concerns even after you’ve purchased the product. Should you have queries or issues with your product, simply pick up the phone and call us. We will do our best to help you.
+        
+        Our support team is trained to always deliver excellent service. Try out our support services and experience exceptional customer assistance at Sharaf DG.
+        
+        
+        
+        Sharaf DG: your one-stop destination for all online shopping needs!
+        Sharaf DG is the perfect place to shop for all your electronics, TV, and home audio needs. With the latest and greatest products from all the top brands, we have everything you need to stay up-to-date with the latest technology.
+        
+        Plus, our excellent after-sales service options and commitment to providing the most competitive prices in the market make us the perfect choice for all your electronics needs.
+        
+        Sharaf DG also offers a wide range furniture item that are available 24/7, so you can shop at your convenience. With our fast and safe delivery provisions, you're sure to receive your items in no time.
+        
+        </p>
+    <button type="button" class=" form-control btn03">hide & show</button>
+     <script>
+        $(document).ready(function(){
+            $(".btn03").click(function(){
+                $(".p012").toggle();
+            });
+        });
+     </script>
+        
+        </div>
+    </div>
+    <hr>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Subscribe to our newsletter</h2>
+            <ul>
+                <li class="item02"> <input type="text" class="form-control input01" placeholder="enter email">
+                </li>
+                <li  class="item02"><button type="button" class="btn btn-primary btn04">Subscribe Now</button></li>
+            </ul>
+            
+            </div>
+            
+    </div>
+            
+            <hr>
+</div>
+
+
+
+<div class="container"></div>
+    <div class="row">
+        <div class="col-sm-12 div03">
+            <ul>
+                <li class="item03" > <p><b>Need Healp</b> <br><a href="#">chanel</a></p>
+                  
+                </li>
+                <li class="item03" ><span class="material-symbols-outlined">
+                    pin_drop
+                    </span>
+                    
+                </li>
+                <li class="item03"> 
+                  <p><b>Store Location</b>   <BR>
+                    finde store</p>
+                  
+                        		
+                      
+                
+                </li>
+                <li class="item03"><span class="material-symbols-outlined">
+                    forum
+                    </span>
+                
+                </li>
+                <li class="item03"> <p><b>Feedback</b><BR>
+                    send us your feedback</p>
+                    
+                </li>
+                <li class="item03"> <span class="material-symbols-outlined">
+                    call
+                    </span>
+                
+                </li>
+                <li><p><b>Chat Now</b><br>Chat on whatsApp</p></li>
+               
+       
+        
+        
+         
+            </ul></div></div></div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul>
+                            <li class="item01"> <p><b>Essentials</b></p>
+                                <p>Essentials	<BR>
+                                    Mobiles<BR>	   
+                                    Laptop<BR>	 
+                                    Tablets	<BR>
+                                    Smartwatches<BR>
+                                     Health & Fitness<br>
+                                     IT Equipment	<br>		  
+                                     Gift cards					
+                                    </p>
+                            </li>
+                            <li class="item01"> <p><b>Essentials</b></p>
+                                <p>Essentials	<BR>
+                                    Mobiles<BR>	   
+                                    Laptop<BR>	 
+                                    Tablets	<BR>
+                                    Smartwatches<BR>
+                                     Health & Fitness<br>
+                                     IT Equipment	<br>		  
+                                     Gift cards					
+                                    </p>
+                            
+                            </li>
+                            <li class="item01"> <p><b>Essentials</b></p>
+                                <p>Essentials	<BR>
+                                    Mobiles<BR>	   
+                                    Laptop<BR>	 
+                                    Tablets	<BR>
+                                    Smartwatches<BR>
+                                     Health & Fitness<br>
+                                     IT Equipment	<br>		  
+                                     Gift cards					
+                                    </p>
+                            
+                            </li></ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="img/img000.png" class="img000">
+
+                    </div>
+                </div>
+            </div>
+            
+</body>
+</html>

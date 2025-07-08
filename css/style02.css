@@ -1,0 +1,47 @@
+.div05{
+    padding-top: 150px;
+
+}
+.col{
+    width: 5%;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+   margin-left: 30px;
+   margin-top: 50px;
+}
+h5{
+    padding-bottom: 50px;
+}
+.btn01{
+    margin-left: 600px;
+}
+table{
+    
+    margin-left: 400px;
+    border: 1px solid #dddddd;
+}
+th{
+    padding-left: 30px;
+}
+td{
+    padding-left: 200px;
+    height: 50px;
+    width: 500px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  
+  }
+.item01{
+    float: left;
+   
+}
+.ul01{
+    list-style-type: none;
+}
+.p0000{
+    padding-left: 50px;
+}
+
+  
